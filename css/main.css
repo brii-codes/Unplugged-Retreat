@@ -447,6 +447,9 @@ textarea {
     align-items: center;
     padding: 20px;
 }
+.mission h1{
+  width: 95%;
+}
 
 .mission-content p {
     width: 45%;
