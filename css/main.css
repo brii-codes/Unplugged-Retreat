@@ -105,7 +105,7 @@ body {
  
 ul, 
 ol {
- 
+ text-transform: uppercase;
 }
  
 a {
@@ -132,10 +132,11 @@ p {
 }
  
 img {
- 
+ width: 100%;
 }
  
 figure {
+  margin: 0;
  
 }
  
@@ -184,6 +185,13 @@ address {
      list-style: none;
      font-weight: bold;
    }
+   header figure{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
 
    footer{
     flex-direction: column;
@@ -231,6 +239,10 @@ address {
     display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background-image: url("../img/hero.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
     }
 
     aside{
@@ -245,6 +257,9 @@ address {
      justify-content: center;
      flex-flow: row wrap;
      padding: 53px 53px 0 60px;
+     background-image: url("../img/features.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
     }
     .features h2{
       width: 88%;
