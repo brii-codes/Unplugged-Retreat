@@ -353,7 +353,9 @@ textarea {
     max-width: 640px;
     margin: 100px 0;
   }
-/*================HOMEPAGE=====================*/
+/* ==========================================================================
+   HOME Page
+   ========================================================================== */
 
 /* Header */
  
@@ -438,8 +440,11 @@ textarea {
 
   footer .copyright {
       width:100%;
+      text-align: center;;
   }
-/*======================ABOUT PAGE===================*/
+/* ==========================================================================
+    ABOUT Page
+   ========================================================================== */
 
   .mission-content {
     display:flex;
@@ -466,7 +471,9 @@ textarea {
     align-items: flex-start;
   }
 
-  /*======================FAQ PAGE===================*/
+/* ==========================================================================
+  FAQ Page
+  ========================================================================== */
 
   .faq .content-wrapper {
     justify-content: space-between;
@@ -480,9 +487,53 @@ textarea {
     width: 100%;
 }
 }
-/* DESKTOP STYLES */
+/* -----------------------------------------DESKTOP STYLES--------------------------------------------- */
+
 @media only screen and (min-width: 1200px) {
-  
+  .content-wrapper {
+    max-width: 960px;
+  }
+/* Hero */
+  .hero-area h1 {
+    width: 100%;
+  }
+/* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 50%;
+  } 
+/* Features */
+  .features h2 {
+    width: 90%;
+  }
+  .features article {
+    flex-basis: 15%;
+  }
+/* Reviews */ 
+  .reviews article div {
+    width: 50%;
+  }
+    
+/* ==========================================================================
+  About Page
+  ========================================================================== */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 100%;
+  }
+/* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+  .faq h2 {
+     width: 100%;
+  }
+    
 }
 
 
