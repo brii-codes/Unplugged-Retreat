@@ -522,7 +522,10 @@ address {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
-
+  .features i{
+    font-size: 3.75em;
+  }
+  
   .features .icon-description {
       width: 50%;
   }
