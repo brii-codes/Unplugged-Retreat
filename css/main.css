@@ -206,7 +206,9 @@ address {
   footer .contact{
     margin-bottom: 50px;
   }
-
+  .contact{
+    text-align: center;
+  }
   footer .social-icons{
 
     display: flex;
@@ -221,8 +223,16 @@ address {
   }
 
    .social{
-     padding: 50px 0 0 0;
+     padding: 50px 0 20px 0;
    }
+   .social h4{
+     text-align:center;
+   }
+
+   .social-icons i{
+    color: #527158;
+    font-size: 2em;
+  }
 
    footer .social-icons p{
 
@@ -269,6 +279,9 @@ address {
       margin: 30px 0;
     }
     
+    .features i{
+      font-size: 3.75em;
+    }
 
     .features-items{
      display: flex;
@@ -522,10 +535,7 @@ address {
     flex-flow: column wrap;
     flex-basis: 50%;
   }
-  .features i{
-    font-size: 3.75em;
-  }
-  
+
   .features .icon-description {
       width: 50%;
   }
@@ -560,6 +570,11 @@ address {
       width:100%;
       text-align: center;;
   }
+
+  .social-icons i{
+    padding: 30px;
+  }
+
 /* ==========================================================================
     ABOUT Page
    ========================================================================== */
@@ -602,15 +617,15 @@ address {
 
   .faq .content-wrapper {
     justify-content: space-between;
-}
+ }
 
 .faq-content {
     flex-basis: 40%;
-}
+ }
 
 .faq h2 {
     width: 100%;
-}
+ }
 }
 /* -----------------------------------------DESKTOP STYLES--------------------------------------------- */
 
